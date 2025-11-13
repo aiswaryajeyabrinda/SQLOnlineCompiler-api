@@ -1,5 +1,10 @@
 package com.moengage.SqlRunner.models;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public class QueryRequest {
     private String query;
 
@@ -9,11 +14,4 @@ public class QueryRequest {
         this.query = query;
     }
 
-    public String getQuery() {
-        return query;
-    }
-
-    public void setQuery(String query) {
-        this.query = query;
-    }
 }
